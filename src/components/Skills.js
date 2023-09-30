@@ -14,8 +14,7 @@ export default function Skills() {
                     <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
                         Here is a list of the skills I have and the Technologies I have had experience with 
                     </p>
-                    <div style = "margin - top: 20px:;">
-                    </div>
+                    
                      <h1 className="sm:text-4xl text-3xl font-small title-font text-white mb-4">
                         Programming Languages:
                     </h1>
