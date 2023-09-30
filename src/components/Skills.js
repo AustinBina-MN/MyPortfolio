@@ -12,10 +12,11 @@ export default function Skills() {
                         Skills &amp; Technologies
                     </h1>
                     <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-                        ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-                        possimus est.
+                        Here is a list of the skills I have and the Technologies I have had experience with 
                     </p>
+                     <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+                        Programming Languages:
+                    </h1>
                 </div>
                 <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                     {skills.map((skill) => (
