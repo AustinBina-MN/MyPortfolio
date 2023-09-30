@@ -50,11 +50,10 @@ export const testimonials = [
   },
 ];
 
-export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+export const program_skills = [
+  "Python",
+  "Dart",
+  "C++",
+  "C",
+  "Java",
 ];

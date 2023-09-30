@@ -14,12 +14,14 @@ export default function Skills() {
                     <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
                         Here is a list of the skills I have and the Technologies I have had experience with 
                     </p>
-                     <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+                    <div style = "margin - top: 20px:;">
+                    </div>
+                     <h1 className="sm:text-4xl text-3xl font-small title-font text-white mb-4">
                         Programming Languages:
                     </h1>
                 </div>
                 <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-                    {skills.map((skill) => (
+                    {program_skills.map((skill) => (
                         <div key={skill} className="p-2 sm:w-1/2 w-full">
                             <div className="bg-gray-800 rounded flex p-4 h-full items-center">
                                 <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
